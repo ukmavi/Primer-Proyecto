@@ -107,7 +107,7 @@ body{
     justify-content: center;                
     width: 100%;    
     position: fixed;
-    top:0;
+    top:18%;
     left: 0;
     z-index: 1000;     
     
@@ -160,7 +160,7 @@ body{
 }
 #vacio2 {
     display:block;
-    height:8%
+    height:18%
     width:100%
     color:rgb(12, 124, 253);
 }
