@@ -159,3 +159,8 @@ body{
 .top2 img{
     margin-bottom:0px;
 }
+#vacio2 {
+    height:8%
+    width:100%
+    color:rgb(12, 124, 253);
+}
