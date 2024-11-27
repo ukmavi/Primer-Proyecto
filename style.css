@@ -165,7 +165,7 @@ html, body{
     display:block;
     height:80%;
     width:100%;
-    color: lightblue;
+    color: lightblue !important;
     border:1px solid black;
     margin-bottom:75px;
     padding-top:20px;
