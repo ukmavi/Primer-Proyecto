@@ -120,6 +120,7 @@ body{
         display: inline-flex;
         height: px;
         flex-wrap: wrap;
+        height:10%;
     }
     
     #menu ul li {
