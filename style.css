@@ -163,7 +163,6 @@ body{
 #vacio2 {
     display:block;
     height:30%;
-    min-height:30px;
     width:100%;
     color:rgb(12, 124, 253);
     border:1px solid black;
