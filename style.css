@@ -1,7 +1,7 @@
 body{
     background-color: lightblue;
     font-family:Arial, Helvetica, sans-serif;
-    
+    padding-top: 70px;
     }
     .header h1{
     background-color: rgb(12, 124, 253);
@@ -12,7 +12,7 @@ body{
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 150px;
     color: white;
     font-weight: bold;
     }
@@ -68,8 +68,8 @@ body{
     }
     #cajas {
         display: flex;
-        flex-wrap: wrap;
-        gap: 20px; 
+        flex-wrap: wrap;  /* Permite que los elementos se muevan a la siguiente línea si es necesario */
+        gap: 20px; /* Espacio entre los elementos */
         justify-content: center;
         align-items: center;
     }
@@ -97,13 +97,19 @@ body{
     .menciones h2{
         background-color: cyan;
         color:black;
+        margin-top: 50px;
+        
     }
-#menu {
+    #menu {
         background-color: blue;
     padding: 10px;
     display: flex;            
     justify-content: center;                
-    width: 100%;              
+    width: 100%;    
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1000;     
     
     }
     
@@ -113,6 +119,7 @@ body{
         padding: 0;
         display: inline-flex;
         height: px;
+        flex-wrap: wrap;
     }
     
     #menu ul li {
