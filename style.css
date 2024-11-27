@@ -97,7 +97,7 @@ body{
     .menciones h2{
         background-color: cyan;
         color:black;
-        margin-top: 50px;
+        margin-top: 0px;
         
     }
     #menu {
@@ -151,3 +151,7 @@ body{
         width: 100%:
         
     }
+.top2 {
+    margin-bottom:0px;
+    
+}
