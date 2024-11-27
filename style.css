@@ -68,8 +68,8 @@ body{
     }
     #cajas {
         display: flex;
-        flex-wrap: wrap;  /* Permite que los elementos se muevan a la siguiente línea si es necesario */
-        gap: 20px; /* Espacio entre los elementos */
+        flex-wrap: wrap;
+        gap: 20px; 
         justify-content: center;
         align-items: center;
     }
@@ -97,5 +97,41 @@ body{
     .menciones h2{
         background-color: cyan;
         color:black;
-        
+    }
+#menu {
+        background-color: blue;
+    padding: 10px;
+    display: flex;            
+    justify-content: center;                
+    width: 100%;              
+    
+    }
+    
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        height: px;
+    }
+    
+    #menu ul li {
+        margin-right: 20px;
+    }
+    
+    #menu ul li a {
+        display: inline-block;  
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; 
+    font-size: 16px;
+    background-color: #125fa7; 
+    border-radius: 5px; 
+    border: 5px solid lightblue;
+    }
+    
+    #menu ul li a:hover {
+        text-decoration: none;
+        background-color: aqua;
+        color:black
     }
