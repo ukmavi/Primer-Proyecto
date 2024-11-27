@@ -154,12 +154,13 @@ body{
     }
 .top2 h2 {
     margin-bottom:0px;
-    padding-top:0px;
+  
 }
 .top2 img{
     margin-bottom:0px;
 }
 #vacio2 {
+    display:block;
     height:8%
     width:100%
     color:rgb(12, 124, 253);
