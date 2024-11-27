@@ -120,11 +120,11 @@ body{
         display: inline-flex;
         height: px;
         flex-wrap: wrap;
-        height:10%;
+        height:8%;
     }
     
     #menu ul li {
-        margin-right: 20px;
+        margin-right: 10px;
     }
     
     #menu ul li a {
